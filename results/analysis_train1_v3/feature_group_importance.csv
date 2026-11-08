@@ -1,0 +1,91 @@
+kind,dim,fraction,group,delta_MAE
+within,5,0.05,ELA: dispersi,0.11724193832513782
+within,5,0.05,ELA: distribusi,0.009344380931606848
+within,5,0.05,ELA: meta-model,-0.0013027553764278126
+within,5,0.05,ELA: nearest-better,0.12825062991966074
+within,5,0.05,Kurva: bentuk (trajektori),0.1047329828879557
+within,5,0.05,Kurva: level & laju,0.04062388189356488
+within,5,0.05,Kurva: stagnasi,-8.487665793448384e-05
+within,5,0.05,Populasi: level & tren diversitas,0.0028073862298155965
+within,5,0.05,Populasi: sebaran fitness,0.0029838215084032702
+within,5,0.05,Populasi: trajektori diversitas,0.13972823879438864
+within,5,0.1,ELA: dispersi,0.15440922049787673
+within,5,0.1,ELA: distribusi,0.0045835384447618305
+within,5,0.1,ELA: meta-model,-0.0042182893718260995
+within,5,0.1,ELA: nearest-better,0.119764955273011
+within,5,0.1,Kurva: bentuk (trajektori),0.14590909512669206
+within,5,0.1,Kurva: level & laju,0.09278944258209373
+within,5,0.1,Kurva: stagnasi,0.0008049424297001642
+within,5,0.1,Populasi: level & tren diversitas,-0.0014278509233438851
+within,5,0.1,Populasi: sebaran fitness,0.02890304790607464
+within,5,0.1,Populasi: trajektori diversitas,0.07862799439202195
+within,5,0.2,ELA: dispersi,0.15796994069112405
+within,5,0.2,ELA: distribusi,0.0017560693332077475
+within,5,0.2,ELA: meta-model,-0.0024207066837076776
+within,5,0.2,ELA: nearest-better,0.04648310127016051
+within,5,0.2,Kurva: bentuk (trajektori),0.1447480129642085
+within,5,0.2,Kurva: level & laju,0.12249441138103122
+within,5,0.2,Kurva: stagnasi,-0.005285943907649797
+within,5,0.2,Populasi: level & tren diversitas,0.004734958033940053
+within,5,0.2,Populasi: sebaran fitness,0.014588081198707636
+within,5,0.2,Populasi: trajektori diversitas,0.026831852550584224
+within,10,0.05,ELA: dispersi,0.07165293347797085
+within,10,0.05,ELA: distribusi,0.013096976804825034
+within,10,0.05,ELA: meta-model,-0.009359713550028737
+within,10,0.05,ELA: nearest-better,0.03156295311737389
+within,10,0.05,Kurva: bentuk (trajektori),0.0465158248146655
+within,10,0.05,Kurva: level & laju,0.004526866872940763
+within,10,0.05,Kurva: stagnasi,-9.011089929851347e-05
+within,10,0.05,Populasi: level & tren diversitas,0.0006845440542042399
+within,10,0.05,Populasi: sebaran fitness,0.036184141470114096
+within,10,0.05,Populasi: trajektori diversitas,0.05957966048817401
+within,10,0.1,ELA: dispersi,0.1108773064060956
+within,10,0.1,ELA: distribusi,-0.00441385117264359
+within,10,0.1,ELA: meta-model,0.013904712357093944
+within,10,0.1,ELA: nearest-better,0.08160531766832417
+within,10,0.1,Kurva: bentuk (trajektori),0.062168017633551655
+within,10,0.1,Kurva: level & laju,0.08254783462629013
+within,10,0.1,Kurva: stagnasi,0.0003367603276253381
+within,10,0.1,Populasi: level & tren diversitas,0.0008068857774956337
+within,10,0.1,Populasi: sebaran fitness,0.026153671439369686
+within,10,0.1,Populasi: trajektori diversitas,0.025367533806523148
+within,10,0.2,ELA: dispersi,0.058169877229583514
+within,10,0.2,ELA: distribusi,-0.0041776160286003455
+within,10,0.2,ELA: meta-model,0.008017265340386376
+within,10,0.2,ELA: nearest-better,0.033725771022234424
+within,10,0.2,Kurva: bentuk (trajektori),0.060247175882466156
+within,10,0.2,Kurva: level & laju,0.08269033211564471
+within,10,0.2,Kurva: stagnasi,0.0009316880692491295
+within,10,0.2,Populasi: level & tren diversitas,-0.0013850402148821179
+within,10,0.2,Populasi: sebaran fitness,0.005605823630777239
+within,10,0.2,Populasi: trajektori diversitas,0.01852450998025719
+within,20,0.05,ELA: dispersi,0.08421291695081272
+within,20,0.05,ELA: distribusi,0.014129257423028988
+within,20,0.05,ELA: meta-model,0.009075295430330477
+within,20,0.05,ELA: nearest-better,0.01949902344312143
+within,20,0.05,Kurva: bentuk (trajektori),0.01904999610221348
+within,20,0.05,Kurva: level & laju,0.024385478139673712
+within,20,0.05,Kurva: stagnasi,9.340406358162826e-06
+within,20,0.05,Populasi: level & tren diversitas,0.002181671383042549
+within,20,0.05,Populasi: sebaran fitness,0.002664873164789651
+within,20,0.05,Populasi: trajektori diversitas,0.024450112299779506
+within,20,0.1,ELA: dispersi,0.05185620427542181
+within,20,0.1,ELA: distribusi,0.0006651167524048818
+within,20,0.1,ELA: meta-model,0.005383981723787038
+within,20,0.1,ELA: nearest-better,0.02265159039942402
+within,20,0.1,Kurva: bentuk (trajektori),0.028843799845493765
+within,20,0.1,Kurva: level & laju,0.061458257948596655
+within,20,0.1,Kurva: stagnasi,0.0002942418660119295
+within,20,0.1,Populasi: level & tren diversitas,0.01236874931584287
+within,20,0.1,Populasi: sebaran fitness,0.015753218355931894
+within,20,0.1,Populasi: trajektori diversitas,0.013972378554519872
+within,20,0.2,ELA: dispersi,0.03450918452522354
+within,20,0.2,ELA: distribusi,5.470226017509196e-06
+within,20,0.2,ELA: meta-model,0.0015601120814101855
+within,20,0.2,ELA: nearest-better,0.017360993055876524
+within,20,0.2,Kurva: bentuk (trajektori),0.008817186846502999
+within,20,0.2,Kurva: level & laju,0.07070774868858333
+within,20,0.2,Kurva: stagnasi,0.0008854606017042758
+within,20,0.2,Populasi: level & tren diversitas,-0.00028979888232163824
+within,20,0.2,Populasi: sebaran fitness,0.009715589767473444
+within,20,0.2,Populasi: trajektori diversitas,0.006676349792841759

@@ -1,0 +1,10 @@
+fraction,scenario,net_saving
+0.05,predictor trained on another benchmark,0.95
+0.05,train on 4 functions run in full (train1),0.7916666666666666
+0.05,train on 20 functions run in full (fold6 as protocol),0.15833333333333333
+0.1,predictor trained on another benchmark,0.9
+0.1,train on 4 functions run in full (train1),0.75
+0.1,train on 20 functions run in full (fold6 as protocol),0.15
+0.2,predictor trained on another benchmark,0.8
+0.2,train on 4 functions run in full (train1),0.6666666666666667
+0.2,train on 20 functions run in full (fold6 as protocol),0.13333333333333333

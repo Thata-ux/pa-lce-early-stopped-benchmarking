@@ -1,0 +1,11 @@
+# Python 3.13 (Kaggle CPU image, 2026). Versions used for the reported results
+# should be confirmed with `pip freeze` on the run environment.
+numpy>=2.0
+scipy>=1.14
+pandas>=2.2
+scikit-learn>=1.5
+threadpoolctl>=3.5
+matplotlib>=3.9
+coco-experiment==2.8.3     # official BBOB/COCO problems (module cocoex)
+cma==4.5.0                 # CMA-ES extension only
+torch>=2.0                 # LC-PFN baseline only (plus git clone github.com/automl/lcpfn)

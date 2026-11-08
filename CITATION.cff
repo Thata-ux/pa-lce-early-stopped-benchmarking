@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the manuscript."
+title: "Early-stopped benchmarking of metaheuristics with trajectory-informed learning-curve extrapolation (PA-LCE): code and results"
+authors:
+  - family-names: Andika
+    given-names: Tahta Herdian
+    orcid: "https://orcid.org/0000-0001-7009-6114"
+    affiliation: "Aisyah University, Pringsewu, Lampung, Indonesia"
+version: "1.0.0"
+date-released: "2026-11-07"
+license: MIT
+repository-code: "https://github.com/Thata-ux/pa-lce-early-stopped-benchmarking"
+keywords:
+  - metaheuristics
+  - benchmarking
+  - learning curve extrapolation
+  - BBOB
+  - conformal prediction
