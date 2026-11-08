@@ -4,6 +4,8 @@ Code and results supporting the manuscript
 
 > T. H. Andika, *Can metaheuristic benchmarks be stopped early? A decision-level comparison of convergence-curve extrapolation with running fewer runs*, submitted to *Swarm and Evolutionary Computation* (2026).
 
+[![Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24047558.svg)](https://doi.org/10.5281/zenodo.24047558) code v1.0.1 · [![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24047571.svg)](https://doi.org/10.5281/zenodo.24047571) raw data and predictions
+
 The study asks whether a benchmark of metaheuristics can be stopped after 5–20% of its evaluation budget and its final results extrapolated **without changing the statistical conclusions of the study** (Friedman ranks and pairwise Wilcoxon–Holm tests). Eight population-based metaheuristics (plus CMA-ES and SHADE in an extension) were run on the 24 noiseless BBOB functions in 5, 10 and 20 dimensions (43,200 runs; 54,000 with the extension). Ten extrapolators are compared, from the last observed value and the pretrained LC-PFN to quantile gradient-boosting models over curve, population-state and trajectory-ELA features, calibrated by grouped cross-conformal prediction.
 
 ## Repository layout
@@ -13,6 +15,7 @@ code/
   pilot_lce_final.py      complete pipeline: generate -> lcpfn -> analyze -> extras
   cluster_bootstrap.py    function-level bootstrap, P(0 reversals), paired differences (Table 8, Sec. 5.4)
   error_by_group.py       MAE by BBOB group / algorithm and per-algorithm bias (Sec. 5.1, 5.6)
+  make_figures.py         Figures 1-6 of the manuscript (vector PDF + PNG)
   extra_analyses.py       equal-cost and low-budget comparisons (Table 9), selective confirmation,
                           function-level sensitivity, effect sizes of disagreeing pairs, Fig. 5
 kaggle/
@@ -24,6 +27,7 @@ results/
   analysis_fold6_ext10/   extension with CMA-ES and SHADE (10 algorithms, 45 pairs)
   cluster_bootstrap/      output of code/cluster_bootstrap.py on analysis_fold6_v3
   extra_analyses/         output of code/extra_analyses.py on analysis_fold6_v3
+  figures/                Figures 1-6 as submitted (code/make_figures.py)
 requirements.txt
 CITATION.cff
 LICENSE
@@ -95,7 +99,7 @@ python code/pilot_lce_final.py analyze  --algs $A10 --tag ext10
 
 ## Data on Zenodo
 
-Two kinds of files are too large for this repository and are archived on Zenodo: **[Zenodo DOI to be added]**.
+Two kinds of files are too large for this repository and are archived on Zenodo: **https://doi.org/10.5281/zenodo.24047571** (dataset, version v1).
 
 - `predictions.csv.gz` of each `analysis_*` folder (15–39 MB each; one row per run, budget fraction and scenario). Download `pa-lce-predictions.zip` and unzip it in the repository root; the files land in their `results/analysis_*/` folders. They are needed by `code/cluster_bootstrap.py`, `code/error_by_group.py` and `code/extra_analyses.py`.
 - The raw convergence curves, population-state series and ELA features (`results_final/parts/`, one `.npz` file per dimension × algorithm × function), if deposited. They can also be regenerated exactly with the `generate` stage.

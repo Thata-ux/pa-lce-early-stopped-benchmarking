@@ -6,7 +6,8 @@ authors:
     given-names: Tahta Herdian
     orcid: "https://orcid.org/0000-0001-7009-6114"
     affiliation: "Aisyah University, Pringsewu, Lampung, Indonesia"
-version: "1.0.0"
+version: "1.0.1"
+doi: "10.5281/zenodo.24047558"
 date-released: "2026-11-07"
 license: MIT
 repository-code: "https://github.com/Thata-ux/pa-lce-early-stopped-benchmarking"
@@ -16,3 +17,10 @@ keywords:
   - learning curve extrapolation
   - BBOB
   - conformal prediction
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24047558"
+    description: "Code and analysis results (this repository, v1.0.1)"
+  - type: doi
+    value: "10.5281/zenodo.24047571"
+    description: "Raw data and per-run predictions (dataset)"
